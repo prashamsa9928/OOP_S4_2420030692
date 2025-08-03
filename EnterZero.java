@@ -6,20 +6,19 @@ public class EnterZero {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+                System.out.println("Enter the numbers");
 
-	     System.out.println("Enter numbers (enter 0 to stop):");
+        while (true) {
+            int n = sc.nextInt(); 
+            if (n == 0) {
+                break;  
+            }
+            System.out.println("Entered: " + n);
+        }
 
-	   
-	     while (true) {
-	         int num = sc.nextInt();
-	         if (num == 0) {
-	             break;  
-	         }
-	         System.out.println("You entered: " + num);
-	     }
-
-	     System.out.println("Program ended. You entered 0.");
+        System.out.println("Entered 0.");
 		}
 
 	}
+
 
