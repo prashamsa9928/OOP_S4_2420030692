@@ -1,19 +1,21 @@
 package mypackage;
+import java.util.Scanner;
 
 public class IncrementDecrement {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int x = 10;
-        System.out.println("Original x = " + x);
-        System.out.println("x++ = " + (x++)); 
-        System.out.println("After x++ x = " + x);
-        System.out.println("++x = " + (++x)); 
-        System.out.println("x-- = " + (x--)); 
-        System.out.println("After x-- x = " + x);
-        System.out.println("--x = " + (--x)); 
+		Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a");
+        int a = sc.nextInt();
+        System.out.println("a++ is"+(a++));
+        System.out.println("a-- is"+(a--));
+        System.out.println("++a is"+(++a));
+        System.out.println("--a is"+(a--));
+		
 }
 
 
 	}
+
 
