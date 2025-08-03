@@ -10,14 +10,14 @@ public class GreaterOrEqual {
 	    int a = sc.nextInt();
 	    System.out.println("Enter second integer");
 	    int b = sc.nextInt();
-	   
-	    
 	    if(a>b)
-	      System.out.println(a + " is Greater");
-	    else if(b>a)
-	      System.out.println(b + " is Greater");
-	    else
-	      System.out.println("Both are equal");
-	  }
-
+        System.out.println("Greater integer is:"+a);
+        else if(b>a)
+        System.out.println("Greater integer is:"+b);
+        else
+        System.out.println("Both integers are equal");
+	   
 	}
+
+}
+
