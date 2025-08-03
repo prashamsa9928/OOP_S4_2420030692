@@ -6,9 +6,9 @@ public class Day {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-	     System.out.println("Enter day number ( 1 to 7 ): ");
+	     System.out.println("Enter day number:");
 	     int num = sc.nextInt();
-	     String day;
+		String day;
 	     if(num==1)
 	     {
 	    	day="Monday"; 
@@ -30,12 +30,14 @@ public class Day {
 	     }
 	     else if (num == 7) {
 	         day = "Sunday";
-	     } else {
-	         day = "Invalid day number! Please enter a number between 1 and 7.";
+	     } 
+	     else {
+	         day = "Invalid";
 	     }
+		System.out.println("The day is:"+(day));
 
-	     System.out.println("Day name is: " + day);
 		}
 
 	}
+
 
